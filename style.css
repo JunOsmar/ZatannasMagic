@@ -1,3 +1,9 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #title {
     width: 100%;
     background-image: linear-gradient(purple, white);
@@ -27,7 +33,7 @@
 .balao {
     text-align: center;
     height: 40%;
-    width: 80%;
+    width: 60%;
     border: solid black;
     border-radius: 50%;
     color: blue;
