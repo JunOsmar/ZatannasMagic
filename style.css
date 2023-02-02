@@ -1,0 +1,76 @@
+#title {
+    width: 100%;
+    background-image: linear-gradient(purple, white);
+    text-align: center;
+    font-size: 75px;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+.imgDiv {
+    width: 100%;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#txtContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.balao {
+    text-align: center;
+    height: 40%;
+    width: 80%;
+    border: solid black;
+    border-radius: 50%;
+    color: blue;
+    padding: 10px 30px;
+}
+
+input:focus,
+input:focus,
+select:focus {
+    outline: 0;
+}
+
+.response {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    font-size: 30px;
+    color: blue;
+    background-color: none;
+    font-weight: bold;
+    word-wrap: break-word;
+    padding: 15px;
+}
+
+.zatannaImg {
+    width: 100%;
+}
+
+.divInput input {
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.divInput button {
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    background-color: purple;
+    font-weight: bold;
+    padding: 15px 20px;
+}
